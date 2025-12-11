@@ -1,0 +1,12 @@
+# Ignore WordPress uploads
+wp-content/uploads/
+
+# Ignore WordPress config
+wp-config.php
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules (if using JS packages)
+node_modules/
