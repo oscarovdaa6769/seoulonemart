@@ -1,3 +1,14 @@
 <?php get_header(); ?>
-<h1>Welcome to My E-commerce Theme</h1>
+
+<main>
+<?php
+if (have_posts()) :
+  while (have_posts()) : the_post();
+    the_title('<h2>', '</h2>');
+    the_content();
+  endwhile;
+endif;
+?>
+</main>
+
 <?php get_footer(); ?>
