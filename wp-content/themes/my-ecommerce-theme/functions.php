@@ -17,18 +17,20 @@ function mytheme_setup() {
 add_action('after_setup_theme', 'mytheme_setup');
 
 function mytheme_assets() {
-    wp_enqueue_style('mytheme-style', get_stylesheet_uri());
-
+    // Google Fonts
     wp_enqueue_style(
         'google-fonts',
         'https://fonts.googleapis.com/css2?family=Epilogue&display=swap',
-        false
+        array(),
+        null
     );
 
-    // Main stylesheet
+    // Main CSS with version to avoid caching
     wp_enqueue_style(
         'main-style',
-        get_stylesheet_uri()
+        get_stylesheet_uri(),
+        array('google-fonts'),
+        filemtime(get_stylesheet_directory() . '/style.css')
     );
 }
 add_action('wp_enqueue_scripts', 'mytheme_assets');
@@ -72,5 +74,5 @@ function mytheme_save_product_meta($post_id){
     if(isset($_POST['price'])) update_post_meta($post_id,'_price',$_POST['price']);
     if(isset($_POST['stock'])) update_post_meta($post_id,'_stock',$_POST['stock']);
 }
-add_action('save_post','mytheme_save_product_meta');
+add_action('save_post','mytheme_save_product_meta');0
 ?>

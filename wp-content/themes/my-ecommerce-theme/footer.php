@@ -1,6 +1,6 @@
 </main>
 <footer>
-<p>© <?php echo date('Y'); ?> SeoulOne-Mart</p>
+<p>© <?php echo date('Y'); ?></p>
 </footer>
 <?php wp_footer(); ?>
 </body></html>
