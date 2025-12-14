@@ -10,14 +10,12 @@
 <body <?php body_class(); ?>>
 <header>
    <div class="logo_section">
-    <img src="wp-content/themes/astra/assets/image/logo.png" alt="seoulonemart_logo">
+    <img src="wp-content/themes/astra/assets/image/seoulonemart-logo.png" alt="seoulonemart_logo">
    </div>
 
    <div class="search_bar">
-    <form action="">
       <input type="text" placeholder="Search here...">
-    </form>
-    <i class="fa-solid fa-magnifying-glass icon"></i>
+      <button><i class="fa-solid fa-magnifying-glass icon"></i></button>
    </div>
 
    <div class="utility-nav">
@@ -25,6 +23,18 @@
     <a href=""><i class="fa-solid fa-heart"></i></a>
     <a href=""><i class="fa-solid fa-basket-shopping"></i></a>
    </div>
+
+   <div class="language_switcher_section">
+    <button class="language_switcher_btn">
+      English <i class="fa-solid fa-angle-down"></i>
+    </button>
+    <ul class="language_switcher_menu">
+      <li>English</li>
+      <li>Khmer</li>
+      <li>Korean</li>
+    </ul>
+   </div>
+
 </header>
 
 <nav>
