@@ -181,8 +181,87 @@ nav a:hover {
       border: 1px solid var(--color-border);
 }
 
+.why_choose_us_section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 32px;
+      width: 100%;
+}
 
+.why_choose_us_card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 13px;
+      width: 25%;
+}
 
+.why_choose_us_card p {
+      font-size: 20px;
+}
+
+.why_choose_us_icon {
+      width: 50px;
+      height: 50px;
+      border: 1px solid var(--color-primary);
+      border-radius: 1000px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-primary);
+}
+
+.hero_section {
+      height: 500px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 32px;
+      background: linear-gradient(to bottom right, #241917, #464343);
+}
+
+.hero_side {
+      color: var(--color-background);
+      display: grid;
+      gap: 20px;
+      width: 400px;
+}
+
+.hero_side img {
+      width: 100%;
+      object-fit: cover;
+}
+
+.hero_side h1 {
+      font-size: 32px;
+}
+
+.hero_side p {
+      font-size: 20px;
+}
+
+.btn {
+      padding: 20px;
+      border-radius: 20px;
+      font-size: 20px;
+      border: 1px solid var(--color-border);
+      background: var(--color-background);
+      display: flex;
+      gap: 13px;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+}
+
+.btn:hover {
+      background: var(--color-accent);
+      color: var(--color-background);
+}
+
+.featured_section {
+      padding: 20px 32px;
+}
 
 
 
