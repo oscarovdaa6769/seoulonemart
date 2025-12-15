@@ -1,0 +1,11 @@
+--2025-12-09 16:46:58--  https://wordpress.org/latest.tar.gz
+Resolving wordpress.org (wordpress.org)... 198.143.164.252, 2607:f978:5:8002::c68f:a4fc
+Connecting to wordpress.org (wordpress.org)|198.143.164.252|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 27058021 (26M) [application/octet-stream]
+Saving to: ‘latest.tar.gz’
+
+latest.tar.gz                          81%[=========================================================>              ]  21.01M  4.43MB/s    eta 3s     latest.tar.gz                          86%[=============================================================>          ]  22.29M  4.92MB/s    eta 3s     latest.tar.gz                          91%[================================================================>       ]  23.53M  5.42MB/s    eta 3s     latest.tar.gz                          96%[====================================================================>   ]  24.79M  5.98MB/s    eta 0s     latest.tar.gz                         100%[=======================================================================>]  25.80M  5.90MB/s    in 9.4s    
+
+2025-12-09 16:47:08 (2.73 MB/s) - ‘latest.tar.gz’ saved [27058021/27058021]
+
