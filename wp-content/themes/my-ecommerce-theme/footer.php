@@ -1,10 +1,10 @@
 </main>
 <footer class="footer_section">
-      <div class="footer_logo">
-            <img src="wp-content/themes/astra/assets/image/seoulonemart-logo.png" alt="">
+      <div class="footer_logo footer_contain">
+            <img src="../wp-content/themes/astra/assets/image/seoulonemart-logo.png" alt="">
             <p>Bringing you the best Korean ramen, noodles, and ready-to-eat meals — fast, authentic, and affordable.</p>
       </div>
-      <div class="footer_nav">
+      <div class="footer_nav footer_contain">
             <h1>Quick Link</h1>
             <ul>
                   <li><a href="">Home</a></li>
@@ -15,7 +15,7 @@
                   <li><a href="">Contact</a></li>
             </ul>
       </div>
-      <div class="footer_support">
+      <div class="footer_support footer_contain">
             <h1>Customers Support</h1>
             <ul>
                   <li><a href="">FAQs</a></li>
@@ -24,7 +24,7 @@
                   <li><a href="">Privacy Policy</a></li>
             </ul>
       </div>
-      <div class="footer_social">
+      <div class="footer_social footer_contain">
             <h1>Follow Us</h1>
             <div class="social_icon_section">
                   <div class="social_icon tiktok"><i class="fa-brands fa-tiktok social_item"></i> Tiktok</div>

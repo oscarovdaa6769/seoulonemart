@@ -252,6 +252,7 @@ nav a:hover {
       align-items: center;
       justify-content: center;
       width: 250px;
+      cursor: pointer;
 }
 
 .btn:hover {
@@ -280,8 +281,11 @@ nav a:hover {
       border-top: 1px solid var(--color-background);
 }
 
+.footer_contain {
+      width: 100%;
+}
+
 .footer_logo {
-      width: 25%;
       display: grid;
       gap: 20px;
 }
@@ -296,7 +300,6 @@ nav a:hover {
 }
 
 .footer_nav {
-      width: 25%;
       display: grid;
       gap: 32px;
 }
@@ -321,7 +324,6 @@ nav a:hover {
 }
 
 .footer_support {
-      width: 25%;
       display: grid;
       gap: 32px;
 }
@@ -346,7 +348,6 @@ nav a:hover {
 }
 
 .footer_social {
-      width: 25%;
       display: grid;
       gap: 32px;
 }
@@ -391,4 +392,199 @@ nav a:hover {
 .footer_copyright {
       text-align: center;
       padding: 16px;
+}
+
+.product_list_section {
+      padding: 20px 32px;
+      border-top: 1px solid var(--color-border);
+      display: grid;
+      gap: 20px;
+}
+
+.nav_section {
+      display: flex;
+      gap: 13px;
+}
+
+.filter_item {
+      display: flex;
+      gap: 13px;
+      align-items: center;
+      overflow: hidden;
+      height: 70px;
+}
+
+#toggler {
+      display: none;
+}
+
+.sub-categories {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      max-width: 0;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.4s ease-in-out;
+}
+
+#toggler:checked + .label_btn {
+      background: var(--color-accent);
+      color: var(--color-background);
+}
+
+#toggler:checked ~ .sub-categories {
+      max-width: 800px;
+      opacity: 1;
+}
+
+.sub-categories-item p {
+      display: block;
+}
+
+.product_list_header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.product_list_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text);
+    width: 340px; /* Added width for better layout visibility */
+}
+
+.left_side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product_list_filter {
+    font-size: 16px;
+}
+
+.range-slider-container {
+    /* Use 100% width of the container for responsive fitting */
+    width: 100%; 
+    background: var(--color-background);
+    border-radius: 8px;
+    padding: 0;
+}
+
+.price-display {
+    font-weight: bold;
+    text-align: left;
+}
+
+.slider-wrapper {
+    position: relative;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.slider-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--color-border);
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.slider-track-fill {
+    position: absolute;
+    height: 8px; 
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--color-primary);
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+input[type="range"] {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    pointer-events: none;
+    margin: 0;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--color-background);
+    border: 3px solid var(--color-primary);
+    border-radius: 50%;
+    cursor: grab;
+    pointer-events: all;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background: transparent;
+}
+
+
+/* --- 2. COLLAPSIBLE FILTER SPECIFIC STYLES --- */
+.filter-header-content {
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-header-content h1 {
+    font-size: 1.2em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Toggle Icon Rotation */
+.filter-header-content .fa-angle-down {
+    transition: transform 0.3s;
+}
+.filter-header-content.active .fa-angle-down {
+    transform: rotate(180deg);
+}
+
+/* Collapsible Options Container */
+.filter-options {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+.filter-options.show {
+    max-height: 1000px; /* Needs to be large enough to contain all content */
+}
+
+/* Filter Group Headers */
+h3 {
+    font-size: 1em;
+    margin: 15px 0 8px 0;
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+
+/* Ensure paragraph text within filter options aligns correctly */
+.left_side p {
+    margin: 0;
 }

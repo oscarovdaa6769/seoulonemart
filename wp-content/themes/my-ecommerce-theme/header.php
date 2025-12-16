@@ -10,7 +10,7 @@
 <body <?php body_class(); ?>>
 <header>
    <div class="logo_section">
-    <img src="wp-content/themes/astra/assets/image/seoulonemart-logo.png" alt="seoulonemart_logo">
+    <img src="../wp-content/themes/astra/assets/image/seoulonemart-logo.png" alt="seoulonemart_logo">
    </div>
 
    <div class="search_bar">
