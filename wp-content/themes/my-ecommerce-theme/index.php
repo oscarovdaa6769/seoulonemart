@@ -11,26 +11,6 @@ endif;
 ?>
 </main>
 
-<!-- Why-Choose-Us -->
-<div class="why_choose_us_section">
-  <div class="why_choose_us_card">
-    <span class="why_choose_us_icon"><i class="fa-solid fa-bowl-food"></i></span>
-    <p>Authentic Korean Meals</p>
-  </div>
-  <div class="why_choose_us_card">
-    <span class="why_choose_us_icon"><i class="fa-solid fa-clock"></i></span>
-    <p>Fast & Easy Shopping</p>
-  </div>
-  <div class="why_choose_us_card">
-  <span class="why_choose_us_icon"><i class="fa-solid fa-tag"></i></span>
-    <p>Affordable Prices</p>
-  </div>
-  <div class="why_choose_us_card">
-    <span class="why_choose_us_icon"><i class="fa-solid fa-leaf"></i></span>
-    <p>Fresh & Ready-to-Eat</p>
-  </div>
-</div>
-
 <!-- Hero-Section -->
 <div class="hero_section">
   <div class="hero_side">
@@ -46,11 +26,6 @@ endif;
   </div>
 </div>
 
-<!-- Featured-Product -->
-<div class="featured_section">
-  <h1>Featured Products</h1>
-  <div class="featured_card">
-    
-  </div>
-</div>
+<!-- Featured Product -->
+ <div></div>
 <?php get_footer(); ?>
