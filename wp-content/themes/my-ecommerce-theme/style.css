@@ -588,3 +588,8 @@ h3 {
 .left_side p {
     margin: 0;
 }
+
+.product_list_card_top {
+      display: flex;
+      align-items: center;
+}

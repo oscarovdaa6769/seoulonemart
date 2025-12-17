@@ -25,87 +25,103 @@
       </div>
       <div class="product_list_container">
     
-    <div class="product_list_filter filter-header-content" id="filter-header">
-          <h1>Ramen & Noodles</h1>
-          <i class="fa-solid fa-angle-down"></i>
-    </div>
-    
-    <div class="filter-options" id="filter-options-content">
-        
-        <h3>Brand</h3>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Samyung</p>
-        </div>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Nongshim</p>
-        </div>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Paldo</p>
-        </div>
-        
-        <h3>Flavor</h3>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Hot</p>
-        </div>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Mild</p>
-        </div>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Cheese</p>
-        </div>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Jjajang</p>
-        </div>
-        
-        <h3>Type</h3>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Cup</p>
-        </div>
-        <div class="left_side">
-              <input type="checkbox">
-              <p>Pack</p>
-        </div>
-        
-        <h3>Spiciness Level</h3>
-        <div class="left_side">
-              <input type="radio" name="spiciness">
-              <p>Mild</p>
-        </div>
-        <div class="left_side">
-              <input type="radio" name="spiciness">
-              <p>Medium</p>
-        </div>
-        <div class="left_side">
-              <input type="radio" name="spiciness">
-              <p>Spicy</p>
-        </div>
-        <div class="left_side">
-              <input type="radio" name="spiciness">
-              <p>Extra Spicy</p>
-        </div>
-        
-        <div class="range-slider-container">
-              <div class="price-display">
-                    <h3>Price Range: $<span id="range-min">0</span> - $<span id="range-max">1000</span></h3>
-              </div>
+      <div class="product_list">
+            <div class="product_list_filter filter-header-content" id="filter-header">
+                  <h1>Ramen & Noodles</h1>
+                  <i class="fa-solid fa-angle-down"></i>
+            </div>
+            
+            <div class="filter-options" id="filter-options-content">
+                  
+                  <h3>Brand</h3>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Samyung</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Nongshim</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Paldo</p>
+                  </div>
+                  
+                  <h3>Flavor</h3>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Hot</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Mild</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Cheese</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Jjajang</p>
+                  </div>
+                  
+                  <h3>Type</h3>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Cup</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="checkbox">
+                        <p>Pack</p>
+                  </div>
+                  
+                  <h3>Spiciness Level</h3>
+                  <div class="left_side">
+                        <input type="radio" name="spiciness">
+                        <p>Mild</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="radio" name="spiciness">
+                        <p>Medium</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="radio" name="spiciness">
+                        <p>Spicy</p>
+                  </div>
+                  <div class="left_side">
+                        <input type="radio" name="spiciness">
+                        <p>Extra Spicy</p>
+                  </div>
+                  
+                  <div class="range-slider-container">
+                        <div class="price-display">
+                              <h3>Price Range: $<span id="range-min">0</span> - $<span id="range-max">1000</span></h3>
+                        </div>
 
-              <div class="slider-wrapper">
-                    <div class="slider-track-fill"></div>
-                    
-                    <input type="range" min="0" max="1000" value="0" step="10" id="min-range-input">
-                    <input type="range" min="0" max="1000" value="1000" step="10" id="max-range-input">
-              </div>
-        </div>
-        
-    </div>
+                        <div class="slider-wrapper">
+                              <div class="slider-track-fill"></div>
+                              
+                              <input type="range" min="0" max="1000" value="0" step="10" id="min-range-input">
+                              <input type="range" min="0" max="1000" value="1000" step="10" id="max-range-input">
+                        </div>
+                  </div>
+                  
+            </div>
+            <div class="product_list_card">
+                  <div class="product_list_card_top">
+                        <div class="product_card">
+                              <div class="product_img">
+                                    <img src="" alt="">
+                              </div>
+                              <h3>Hot Chicken Ramen</h3>
+                              <p>Intense Fire-Spicy Chicken Flavor</p>
+                              <span>$3.50</span>$2.80
+                              
+                        </div>
+                  </div>
+            </div>
+      </div>
+
 </div>
 
 
