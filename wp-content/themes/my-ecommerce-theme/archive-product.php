@@ -107,21 +107,7 @@
                   </div>
                   
             </div>
-            <div class="product_list_card">
-                  <div class="product_list_card_top">
-                        <div class="product_card">
-                              <div class="product_img">
-                                    <img src="" alt="">
-                              </div>
-                              <h3>Hot Chicken Ramen</h3>
-                              <p>Intense Fire-Spicy Chicken Flavor</p>
-                              <span>$3.50</span>$2.80
-                              
-                        </div>
-                  </div>
-            </div>
       </div>
-
 </div>
 
 
